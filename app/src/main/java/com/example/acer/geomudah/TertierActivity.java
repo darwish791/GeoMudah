@@ -5,10 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class TertierActivity extends AppCompatActivity {
 
-    public void goToSecond(View view){
-        Intent intent = new Intent(getApplicationContext(), secondActivity.class);
+    public void goToPelancongan(View view){
+        Intent intent = new Intent(getApplicationContext(), PelanconganActivity.class);
 
         startActivity(intent);
     }
@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_tertier);
     }
 }

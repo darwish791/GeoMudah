@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".secondActivity" />
+        <activity android:name=".PrimerActivity" />
+        <activity android:name=".TertierActivity" />
+        <activity android:name=".PelanconganActivity" />
+        <activity android:name=".EkologiActivity"></activity>
     </application>
 
 </manifest>

@@ -12,6 +12,12 @@
     <string name="pelancongan_txt_1">Pelancongan adalah kegiatan dalam ekonomi perkhidmatan.</string>
     <string name="pelancongan_txt_2">Sebahagian besar pelancong membelanjakan wang mereka pada sektor penginapan dan membeli-belah.</string>
     <string name="pelancongan_txt_3">Terdapat sembilan jenis pelancongan:</string>
+    <string name="title_activity_tasik_temenggor_maps">Map</string>
+    <string name="title_activity_hospital_sungai_buloh_maps">Map</string>
+    <string name="title_activity_uiamaps">Map</string>
+    <string name="title_activity_kota_afamosa_maps">Map</string>
+    <string name="title_activity_sicmaps">Map</string>
+    <string name="title_activity_pwtcmaps">Map</string>
 
 
 </resources>

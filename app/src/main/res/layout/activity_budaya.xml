@@ -4,24 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EkologiActivity">
+    tools:context=".BudayaActivity">
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="174dp"
-        android:layout_height="60dp"
+        android:id="@+id/textView32"
+        android:layout_width="173dp"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
-        android:text="Menikmati keindahan alam semulajadi"
+        android:layout_marginTop="99dp"
+        android:text="Kota A Famosa"
+        android:textAlignment="center"
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:onClick="goToMapsTemenggor"
-        android:text="Tasik Temenggor" />
+        android:layout_marginBottom="173dp"
+        android:onClick="goToKotaAFamosa"
+        android:text="Kota A famosa" />
 </RelativeLayout>

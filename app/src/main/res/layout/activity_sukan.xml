@@ -4,24 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EkologiActivity">
+    tools:context=".SukanActivity">
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="174dp"
-        android:layout_height="60dp"
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
-        android:text="Menikmati keindahan alam semulajadi"
+        android:layout_marginTop="119dp"
+        android:text="Sepang International Circuit"
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:onClick="goToMapsTemenggor"
-        android:text="Tasik Temenggor" />
+        android:layout_marginBottom="185dp"
+        android:onClick="goToSIC"
+        android:text="Sepang International Circuit" />
 </RelativeLayout>

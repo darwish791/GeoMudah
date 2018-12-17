@@ -5,10 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class EkologiActivity extends AppCompatActivity {
+public class PendidikanActivity extends AppCompatActivity {
 
-    public void goToMapsTemenggor(View view){
-        Intent intent = new Intent(getApplicationContext(), TasikTemenggorMapsActivity.class);
+    public void goToUIA(View view){
+        Intent intent = new Intent(getApplicationContext(), UIAMapsActivity.class);
 
         startActivity(intent);
     }
@@ -16,6 +16,6 @@ public class EkologiActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ekologi);
+        setContentView(R.layout.activity_pendidikan);
     }
 }

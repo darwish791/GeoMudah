@@ -62,7 +62,12 @@
         <activity android:name=".MICEActivity" />
         <activity
             android:name=".PWTCMapsActivity"
-            android:label="@string/title_activity_pwtcmaps"></activity>
+            android:label="@string/title_activity_pwtcmaps" />
+        <activity android:name=".TemaActivity" />
+        <activity
+            android:name=".GeorgetownMapsActivity"
+            android:label="@string/title_activity_georgetown_maps" />
+        <activity android:name=".PertanianActivity"></activity>
     </application>
 
 </manifest>

@@ -43,6 +43,12 @@ public class PelanconganActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToTema(View view){
+        Intent intent = new Intent(getApplicationContext(), TemaActivity.class);
+
+        startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

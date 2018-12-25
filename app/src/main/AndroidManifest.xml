@@ -67,7 +67,14 @@
         <activity
             android:name=".GeorgetownMapsActivity"
             android:label="@string/title_activity_georgetown_maps" />
-        <activity android:name=".PertanianActivity"></activity>
+        <activity android:name=".PertanianActivity" />
+        <activity
+            android:name=".CameronHighlandMapsActivity"
+            android:label="@string/title_activity_cameron_highland_maps" />
+        <activity android:name=".RekreasiActivity" />
+        <activity
+            android:name=".PulauSipadanMapsActivity"
+            android:label="@string/title_activity_pulau_sipadan_maps"></activity>
     </application>
 
 </manifest>

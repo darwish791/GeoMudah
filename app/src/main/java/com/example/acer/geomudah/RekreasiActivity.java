@@ -5,11 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class PertanianActivity extends AppCompatActivity {
+public class RekreasiActivity extends AppCompatActivity {
 
-
-    public void goToCameronHighland(View view){
-        Intent intent = new Intent(getApplicationContext(), CameronHighlandMapsActivity.class);
+    public void goToPulauSipadan(View view){
+        Intent intent = new Intent(getApplicationContext(), PulauSipadanMapsActivity.class);
 
         startActivity(intent);
     }
@@ -17,6 +16,6 @@ public class PertanianActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pertanian);
+        setContentView(R.layout.activity_rekreasi);
     }
 }

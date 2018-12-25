@@ -49,6 +49,16 @@ public class PelanconganActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToPertanian(View view){
+        Intent intent = new Intent(getApplicationContext(), PertanianActivity.class);
+
+        startActivity(intent);
+    }
+    public void goToRekreasi(View view){
+        Intent intent = new Intent(getApplicationContext(), RekreasiActivity.class);
+
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

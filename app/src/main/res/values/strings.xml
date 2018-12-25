@@ -19,6 +19,8 @@
     <string name="title_activity_sicmaps">Map</string>
     <string name="title_activity_pwtcmaps">Map</string>
     <string name="title_activity_georgetown_maps">Map</string>
+    <string name="title_activity_cameron_highland_maps">Map</string>
+    <string name="title_activity_pulau_sipadan_maps">Map</string>
 
 
 </resources>

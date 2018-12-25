@@ -4,25 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/malaysia_bg"
     tools:context=".SukanActivity">
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="wrap_content"
+        android:layout_width="379dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="119dp"
-        android:text="Sepang International Circuit"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/sukan_txt_1"
         android:textSize="18sp" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="185dp"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/btn_kosong"
         android:onClick="goToSIC"
-        android:text="Sepang International Circuit" />
+        android:text="Sepang International Circuit"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="331dp"
+        android:layout_height="229dp"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="234dp"
+        app:srcCompat="@drawable/sepang" />
 </RelativeLayout>

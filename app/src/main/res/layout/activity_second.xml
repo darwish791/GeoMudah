@@ -8,59 +8,57 @@
     tools:context=".secondActivity">
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="228dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="33dp"
+        android:text="Sebarang kegiatan manusia yang mendatangkan nilai dan pendapatan. Terdapat tiga jenis kegiatan ekonomi:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
         android:id="@+id/textView"
-        android:layout_width="254dp"
-        android:layout_height="wrap_content"
+        android:layout_width="213dp"
+        android:layout_height="38dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="73dp"
-        android:layout_marginTop="61dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="10dp"
         android:text="Maksud Kegiatan Utama"
         android:textAlignment="center"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="388dp"
-        android:layout_height="83dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="124dp"
-        android:text="Sebarang kegiatan manusia yang mendatangkan nilai dan pendapatan. Terdapat tiga jenis kegiatan ekonomi:"
-        android:textColor="@color/common_google_signin_btn_text_dark_focused"
-        android:textSize="18sp" />
-
     <Button
         android:id="@+id/button8"
-        android:layout_width="106dp"
-        android:layout_height="42dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="19dp"
         android:layout_marginBottom="175dp"
-        android:background="@drawable/button_primer"
-        android:onClick="goToPrimer" />
+        android:onClick="goToPrimer"
+        android:text="Primer" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="106dp"
-        android:layout_height="42dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/button8"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button_sekunder"
-        android:onClick="goToSekunder1" />
+        android:text="Sekunder" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="106dp"
-        android:layout_height="42dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button8"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="18dp"
-        android:background="@drawable/button_tertier"
-        android:onClick="goToTertier" />
+        android:onClick="goToTertier"
+        android:text="Tertier" />
 
 </RelativeLayout>

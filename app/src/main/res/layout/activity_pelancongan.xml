@@ -103,7 +103,8 @@
             android:layout_height="72dp"
             android:background="@drawable/btn_kosong_hijau"
             android:onClick="goToPendidikan"
-            android:text="Pendidikan" />
+            android:text="Pendidikan"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
 
         <TextView
             android:id="@+id/textView26"
@@ -113,9 +114,11 @@
         <Button
             android:id="@+id/button18"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/btn_kosong_merah"
             android:onClick="goToBudaya"
-            android:text="Budaya" />
+            android:text="Budaya"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
 
         <TextView
             android:id="@+id/textView27"
@@ -125,9 +128,11 @@
         <Button
             android:id="@+id/button19"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/btn_kosong_hijau2"
             android:onClick="goToSukan"
-            android:text="Sukan" />
+            android:text="Sukan"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
 
         <TextView
             android:id="@+id/textView28"
@@ -137,9 +142,11 @@
         <Button
             android:id="@+id/button20"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/btn_kosong_oren"
             android:onClick="goToMICE"
-            android:text="MICE" />
+            android:text="MICE"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
 
         <TextView
             android:id="@+id/textView29"
@@ -149,9 +156,11 @@
         <Button
             android:id="@+id/button21"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/btn_kosong_hijau3"
             android:onClick="goToTema"
-            android:text="tema" />
+            android:text="tema"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed" />
 
         <TextView
             android:id="@+id/textView30"
@@ -161,9 +170,11 @@
         <Button
             android:id="@+id/button22"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/btn_kosong_biru"
             android:onClick="goToPertanian"
-            android:text="Pertanian" />
+            android:text="Pertanian"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
 
         <TextView
             android:id="@+id/textView31"
@@ -173,7 +184,8 @@
         <Button
             android:id="@+id/button23"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/btn_kosong_coklat"
             android:onClick="goToRekreasi"
             android:text="Rekreasi" />
 

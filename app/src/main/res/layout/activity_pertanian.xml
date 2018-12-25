@@ -4,26 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/malaysia_bg"
     tools:context=".PertanianActivity">
 
     <TextView
         android:id="@+id/textView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="325dp"
+        android:layout_height="160dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="127dp"
-        android:text="Pertanian"
-        android:textAlignment="center"
-        android:textSize="18sp" />
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="-358dp"
+        android:layout_toStartOf="@+id/button13"
+        android:text="@string/pertanian_txt_1"
+        android:textAlignment="viewStart"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="160dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/btn_kosong"
         android:onClick="goToCameronHighland"
-        android:text="Cameron Highland" />
+        android:text="Cameron Highland"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="297dp"
+        android:layout_height="246dp"
+        android:layout_alignStart="@+id/textView35"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp"
+        app:srcCompat="@drawable/cameron_highland" />
 </RelativeLayout>

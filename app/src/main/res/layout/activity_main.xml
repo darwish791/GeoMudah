@@ -9,16 +9,28 @@
 
     <TextView
         android:layout_width="177dp"
-        android:layout_height="97dp"
+        android:layout_height="57dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginTop="66dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="100dp"
         android:text="BAB 11: KEGIATAN EKONOMI UTAMA"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="178dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Geografi Tingkatan 3"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/button"

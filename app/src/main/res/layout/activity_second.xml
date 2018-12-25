@@ -9,14 +9,14 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="228dp"
-        android:layout_height="100dp"
+        android:layout_width="290dp"
+        android:layout_height="119dp"
         android:layout_below="@+id/textView"
         android:layout_alignStart="@+id/button2"
         android:layout_marginStart="71dp"
         android:layout_marginTop="33dp"
         android:text="Sebarang kegiatan manusia yang mendatangkan nilai dan pendapatan. Terdapat tiga jenis kegiatan ekonomi:"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
         android:textSize="18sp" />
 
     <TextView
@@ -34,31 +34,33 @@
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="102dp"
+        android:layout_height="43dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="19dp"
-        android:layout_marginBottom="175dp"
-        android:onClick="goToPrimer"
-        android:text="Primer" />
+        android:layout_marginBottom="177dp"
+        android:background="@drawable/button_primer"
+        android:onClick="goToPrimer" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="102dp"
+        android:layout_height="43dp"
         android:layout_alignBottom="@+id/button8"
         android:layout_centerHorizontal="true"
-        android:text="Sekunder" />
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/button_sekunder"
+        android:onClick="goToSekunder" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="102dp"
+        android:layout_height="43dp"
         android:layout_alignTop="@+id/button8"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="18dp"
-        android:onClick="goToTertier"
-        android:text="Tertier" />
+        android:background="@drawable/button_tertier"
+        android:onClick="goToTertier" />
 
 </RelativeLayout>

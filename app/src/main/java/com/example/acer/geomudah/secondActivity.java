@@ -13,11 +13,13 @@ public class secondActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void goToSekunder1(View view){
+    public void goToSekunder(View view){
         Intent intent = new Intent(getApplicationContext(), SekunderActivity.class);
 
         startActivity(intent);
     }
+
+
     public void goToTertier(View view){
         Intent intent = new Intent(getApplicationContext(), TertierActivity.class);
 

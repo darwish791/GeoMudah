@@ -13,7 +13,7 @@ public class secondActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void goToSekunder(View view){
+    public void goToSekunder1(View view){
         Intent intent = new Intent(getApplicationContext(), SekunderActivity.class);
 
         startActivity(intent);

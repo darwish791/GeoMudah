@@ -51,7 +51,7 @@
         android:layout_alignBottom="@+id/button8"
         android:layout_centerHorizontal="true"
         android:background="@drawable/button_sekunder"
-        android:onClick="goToSekunder" />
+        android:onClick="goToSekunder1" />
 
     <Button
         android:id="@+id/button10"

@@ -8,10 +8,57 @@
 
     <TextView
         android:id="@+id/textView37"
-        android:layout_width="wrap_content"
+        android:layout_width="98dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="93dp"
-        android:text="Sekunder" />
+        android:layout_marginTop="30dp"
+        android:text="Sekunder"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="324dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="113dp"
+        android:text="@string/sekunder_txt_1"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="324dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/textView40"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="196dp"
+        android:text="@string/sekunder_txt_2"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:layout_alignStart="@+id/textView40"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="258dp"
+        app:srcCompat="@drawable/perkilangan1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignEnd="@+id/textView37"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="-127dp"
+        app:srcCompat="@drawable/perkilangan2" />
 </RelativeLayout>

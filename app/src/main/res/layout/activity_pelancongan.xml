@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/malaysia_bg"
         android:orientation="vertical">
 
         <TextView
@@ -21,6 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pelancongan_txt_1"
+            android:textAlignment="viewStart"
             android:textSize="18sp" />
 
         <TextView
@@ -70,9 +72,11 @@
         <Button
             android:id="@+id/button15"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/btn_kosong"
             android:onClick="goToEkologi"
-            android:text="Ekologi" />
+            android:text="Ekologi"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
 
         <TextView
             android:id="@+id/textView24"
@@ -82,9 +86,11 @@
         <Button
             android:id="@+id/button16"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="75dp"
+            android:background="@drawable/btn_kosong_coklat"
             android:onClick="goToKesihatan"
-            android:text="Kesihatan" />
+            android:text="Kesihatan"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
 
         <TextView
             android:id="@+id/textView25"
@@ -94,7 +100,8 @@
         <Button
             android:id="@+id/button17"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="72dp"
+            android:background="@drawable/btn_kosong_hijau"
             android:onClick="goToPendidikan"
             android:text="Pendidikan" />
 

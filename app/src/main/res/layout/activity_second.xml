@@ -50,7 +50,8 @@
         android:layout_height="42dp"
         android:layout_alignBottom="@+id/button8"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button_sekunder" />
+        android:background="@drawable/button_sekunder"
+        android:onClick="goToSekunder" />
 
     <Button
         android:id="@+id/button10"

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="370dp"
+        android:layout_height="191dp"
+        android:padding="24dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="30sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="115dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_kosong_biru"
+            android:text="@string/true_button"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="115dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_kosong_merah"
+            android:text="@string/false_button"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/previous_button"
+            android:layout_width="115dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_kosong"
+            android:drawableRight="@drawable/arrow_left"
+            android:drawablePadding="4dp"
+            android:text="@string/previous_button"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+        android:text="Button" />
+
+        <Button
+            android:id="@+id/cheat_button"
+            android:layout_width="115dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_kosong_coklat"
+            android:text="@string/cheat_button"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="115dp"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_kosong_oren"
+            android:drawableRight="@drawable/arrow_right"
+            android:drawablePadding="4dp"
+            android:text="@string/next_button"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+    </LinearLayout>
+
+
+</LinearLayout>

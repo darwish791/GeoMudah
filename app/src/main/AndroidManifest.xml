@@ -75,7 +75,9 @@
         <activity
             android:name=".PulauSipadanMapsActivity"
             android:label="@string/title_activity_pulau_sipadan_maps" />
-        <activity android:name=".SekunderActivity"></activity>
+        <activity android:name=".SekunderActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".CheatActivity"></activity>
     </application>
 
 </manifest>

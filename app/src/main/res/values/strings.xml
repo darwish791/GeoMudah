@@ -46,4 +46,24 @@
     <string name="title_activity_pulau_sipadan_maps">Map</string>
 
 
+
+    <string name="true_button">Betul</string>
+    <string name="false_button">Salah</string>
+    <string name="next_button">Seterusnya</string>
+    <string name="previous_button">Sebelum</string>
+    <string name="correct_toast">Wow, betul lah!</string>
+    <string name="incorrect_toast">hahaha, cuba lagi bro!</string>
+
+    <string name="question_malaysia">Terdapat 3 jenis kegiatan ekonomi di Malaysia.</string>
+    <string name="question_oceans">Ekonomi primer ialah kegiatan memperoleh hasil terus dari sumber semulajadi.</string>
+    <string name="question_mideast">Contoh kegiatan ekonomi sekunder ialah pertanian.</string>
+    <string name="question_africa">Ekonomi tertier ialah kegiatan menukar kepada barangan siap untuk pengguna.</string>
+    <string name="question_americas">Pelancongan adalah salah satu kegiatan ekonomi tertier.</string>
+    <string name="question_asia">Kampus induk UIAM terletak di Gombak Selangor.</string>
+
+    <string name="warning_text">Anda pasti anda ingin petunjuk?</string>
+    <string name="show_answer_button">Tunjuk jawapan</string>
+    <string name="cheat_button">Petunjuk!</string>
+    <string name="judgment_toast">Tipu dosa</string>
+
 </resources>
